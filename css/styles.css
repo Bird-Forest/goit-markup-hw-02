@@ -27,9 +27,6 @@ body {
 .link {
   text-decoration: none;
 }
-.underline {
-  font-style: normal;
-}
 .logo-brend {
   font-family: 'Raleway';
   font-style: normal;
@@ -57,6 +54,9 @@ body {
 }
 .nav-page:focus {
   color: var(--color-ocean);
+}
+.contact {
+  font-style: normal;
 }
 .contact-nav {
   font-style: normal;
@@ -185,34 +185,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
 }
-/* /* Page Portfolio  */
+/* Page Portfolio  */
 /* Heder  */
 body {
   counter-reset: var(--color-slate);
 }
+/* Filter Section */
 .filter-btn {
-  font-family: 'Roboto';
-  background: var(--color-cloud);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--color-iris);
-  cursor: pointer;
-}
-.hed {
-  color: var(--color-navy-blue);
-  /* Page Section */
-}
-.filter {
-}
-.filter-item {
-}
-.filter-btn {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   background: var(--color-cloud);
   font-weight: 500;
   font-size: 16px;
@@ -229,23 +209,16 @@ body {
   background: var(--color-ocean);
   color: var(--color-white);
 }
-/* Portfolio */
-.pornfolio {
-}
-.portf {
-}
-.row {
-}
+/* Portfolio Section*/
 .row-item {
-}
-.row-pic {
+  background: #e7e9fc;
 }
 .row-caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-grey);
+  color: var(--color-navy-blue);
 }
 .row-text {
   font-weight: 400;
