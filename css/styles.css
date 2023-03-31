@@ -18,6 +18,9 @@ body {
   font-style: normal;
   color: var(--color-slate);
 }
+.list {
+  list-style: none;
+}
 .logo-link {
   font-family: 'Raleway';
   font-weight: 800;
@@ -40,8 +43,7 @@ body {
 .hed {
   color: var(--color-navy-blue);
 }
-.nav-list {
-  list-style: none;
+.nav {
 }
 .nav-item {
 }
@@ -59,8 +61,7 @@ body {
 }
 .contact {
 }
-.contact-list {
-  list-style: none;
+.contact {
 }
 .contact-item {
 }
@@ -124,8 +125,7 @@ body {
 }
 .prof-title {
 }
-.prof-list {
-  list-style: none;
+.prof {
 }
 .prof-item {
 }
@@ -154,8 +154,7 @@ body {
   text-transform: capitalize;
   color: var(--color-grey);
 }
-.prod-list {
-  list-style: none;
+.prod {
 }
 .prod-item {
 }
@@ -174,8 +173,7 @@ body {
   text-transform: capitalize;
   color: var(--color-grey);
 }
-.team-list {
-  list-style: none;
+.team {
 }
 .team-item {
 }
@@ -213,8 +211,7 @@ body {
 /* Filter */
 .filter {
 }
-.filter-list {
-  list-style: none;
+.filter {
 }
 .filter-item {
 }
@@ -239,8 +236,7 @@ body {
 /* Portfolio */
 .pornfolio {
 }
-.portf-list {
-  list-style: none;
+.portf {
 }
 .row {
 }
