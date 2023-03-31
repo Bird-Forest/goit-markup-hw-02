@@ -12,25 +12,29 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
+  --font-family: 'Raleway', sans-serif;
+  --font-family: 'Roboto', sans-serif;
 }
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  color: var(--color-slate);
+  background-color: var(--color-white), #ffffff;
+  color: var(--color-slate), #434455;
 }
 .list {
   list-style: none;
 }
-.logo-link {
-  font-family: 'Raleway';
+.link {
+  text-decoration: none;
+}
+.logo-brend {
+  font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--color-iris);
 }
 .main-page {
@@ -47,7 +51,7 @@ body {
 }
 .nav-item {
 }
-.nav-link {
+.nav-page {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,8 +59,8 @@ body {
   color: var(--color-navy-blue);
   text-decoration: none;
 }
-.nav-link:hover,
-.nav-link:focus {
+.nav-page:hover,
+.nav-page:focus {
   color: var(--color-iris);
 }
 .contact {
@@ -72,7 +76,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  text-decoration: none;
 }
 .contact-mail:hover,
 .contact-mail:focus {
@@ -104,11 +107,10 @@ body {
   color: var(--color-white);
 }
 .hero-btn {
-  font-family: 'Roboto';
+  font-family: 'Raleway' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   background: var(--color-iris);
