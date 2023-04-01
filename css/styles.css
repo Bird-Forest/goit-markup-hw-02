@@ -12,7 +12,6 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
-  --font-family: 'Raleway', sans-serif;
   --font-family: 'Roboto', sans-serif;
 }
 body {
@@ -28,7 +27,7 @@ body {
   text-decoration: none;
 }
 .logo-brend {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
