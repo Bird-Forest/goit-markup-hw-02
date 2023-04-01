@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 .logo-brend {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -160,18 +160,6 @@ body {
 /* Footer */
 .footer {
   background: var(--color-navy-blue);
-}
-.logo-brend {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  align-items: center;
-  letter-spacing: 0.03em;
-  display: flex;
-  text-transform: uppercase;
-  color: var(--color-iris);
 }
 .fot {
   color: var(--color-cloud);
